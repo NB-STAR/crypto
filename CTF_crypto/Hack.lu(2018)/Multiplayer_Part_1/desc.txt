@@ -1,0 +1,5 @@
+Difficulty: medium
+
+Can you get the pole position of this elliptic racing curve contactless?
+
+nc arcade.fluxfingers.net 1822

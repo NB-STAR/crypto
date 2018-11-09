@@ -1,0 +1,7 @@
+Difficulty: medium
+
+Let us see whether you manage to break the whole thing collectively!
+
+Note: The flag is not in standard flag format
+
+nc arcade.fluxfingers.net 1822

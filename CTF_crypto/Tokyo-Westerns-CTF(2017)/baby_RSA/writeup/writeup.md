@@ -57,13 +57,13 @@ end
 
 让我们换一个角度再来观察一下，现在我们有值q_approx，我们希望恢复值$\Delta$，使得q = q_approx $-\Delta$（如果我们使用下限而不是上限，则为$+\Delta$）
 
-如果我们在模N环中使单变量多项式使得F（x）= q_approx-x，那么很明显我们正在寻找的$\Delta$ （delta）是这个多项式的根，因为q是N的因子，因此$q\space mod\space N ==0$。
+如果我们在模N环中使单变量多项式使得F（x）= q_approx-x，那么很明显,$\Delta$ （delta）就是这个多项式的根，因为q是N的因子，所以$q\space mod\space N ==0$。
 
-我们需要的根也不是那么大，因为它实际上是我们缺少的q的低位，所以最多$2^{512}$，小于N / 4。 我们从[Coppersmith 攻击](https://ctf-wiki.github.io/ctf-wiki/crypto/asymmetric/rsa/rsa_coppersmith_attack/)知道我们可以有效地找到这种多项式的小根，所以我们继续使用sage代码：
+我们需要的根也不是那么大，因为它实际上是我们缺少的q的低位，所以最多$2^{512}$，小于N / 4。 根据[Coppersmith 攻击](https://ctf-wiki.github.io/ctf-wiki/crypto/asymmetric/rsa/rsa_coppersmith_attack/)知道我们可以有效地找到这种多项式的小根，所以我们继续使用sage代码：
 
 ```sage
 p_approx = isqrt(N/19)
-q_approx = 19*p_approx + 2**512
+q_approx = 19*p_approx + 2**512
 
 F.<x> = PolynomialRing(Zmod(N), implementation='NTL')
 f = x - q_approx

@@ -1,0 +1,7 @@
+Difficulty: hard
+
+MCP: I've got a little challenge for you, Sark -- a new recruit. He's a tough case, but I want him treated in the usual manner. Train him for the games... let him hope for a while... and blow him away.
+
+End of Line.
+
+nc arcade.fluxfingers.net 1820
