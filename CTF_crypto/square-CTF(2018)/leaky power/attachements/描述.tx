@@ -1,0 +1,21 @@
+C4 is a very advanced AES based defensive system. You are able to monitor the power lines. Is that enough?
+
+You’re given three files:
+
+powertraces.npy: Measurements (over time) of power consumption of a chip while performing AES encryption
+plaintexts.npy: Corresponding plaintext inputs that were encrypted
+instructions.jwe: File encrypted using the same key as plaintexts.npy.
+note: The first two files are NumPy arrays.
+
+note: there's a mistake in the way instructions.jwe was created (the algorithm is A128GCM, not A256GCM).
+
+C4是一种非常先进的基于AES的防御系统。 您可以监控电源线。 够了吗？
+
+你有三个文件：
+
+powertraces.npy：执行AES加密时芯片功耗的测量（随时间推移）
+plaintexts.npy：加密的相应明文输入
+instructions.jwe：使用与plaintexts.npy相同的密钥加密文件。
+注意：前两个文件是NumPy数组。
+
+注意：在创建instructions.jwe的方式上有一个错误（算法是A128GCM，而不是A256GCM）。

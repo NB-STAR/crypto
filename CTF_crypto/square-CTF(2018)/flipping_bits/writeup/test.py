@@ -37,6 +37,6 @@ elif s2<0:
 m=(pow(c1,s1,n)*pow(c2,s2,n)) % n
 
 m=hex(m).replace('l','').replace('L','').replace('0x','')
-
+print m
 print binascii.a2b_hex(m)
 
