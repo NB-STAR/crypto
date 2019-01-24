@@ -1,0 +1,10 @@
+version: "3"
+services:
+  flatcrypt:
+    build: .
+    image: 10.10.83.201:5001/csaw_2018__flatcrypt:1.0
+    restart: unless-stopped
+    ports:
+      - "8040"
+    labels:
+      '8040': nc IP PORT

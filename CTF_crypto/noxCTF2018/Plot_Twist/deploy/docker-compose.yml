@@ -1,0 +1,8 @@
+version: "3"
+services:
+  chop_suey:
+    build: .
+    image: 10.10.83.201:5001/noxctf-2018__plot_twist:1.0
+    ports:
+      - "5115"
+

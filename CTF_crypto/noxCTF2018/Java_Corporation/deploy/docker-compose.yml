@@ -1,0 +1,7 @@
+version: "3"
+services:
+  Java_Corporation:
+    build: .
+    image: 10.10.83.201:5001/noxctf-2018__java_corporation:1.0
+    ports:
+      - "3141"
