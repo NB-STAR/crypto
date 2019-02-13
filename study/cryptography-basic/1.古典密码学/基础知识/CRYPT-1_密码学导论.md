@@ -1,6 +1,6 @@
 ## CRYPT-1 密码学导论
 
-**author：Odyssey@cyberpeace**
+**author : Odyssey@cyberpeace**
 
 
 ### 知识点

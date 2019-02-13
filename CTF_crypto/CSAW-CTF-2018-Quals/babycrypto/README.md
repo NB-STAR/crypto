@@ -1,7 +1,7 @@
-# Solution
+## Solution
 Single byte brute to get flag! (its not that bad)
 
-# Description
+## Description
 
 yeeeeeeeeeeeeeeeeeeeeeeeeeeeeeet
 
@@ -15,5 +15,3 @@ yeet is yeet
 
 Yeetdate: yeeted yeet at yeet: 9:42 pm
 
-# Flag
-flag{diffie-hellman-g0ph3rzraOY1Jal4cHaFY9SWRyAQ6aH}
