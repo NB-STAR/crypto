@@ -1,4 +1,3 @@
-.
 ├── CTF_crypto
 │   ├── CSAW-CTF-2018-Quals
 │   │   ├── babycrypto
@@ -48,5 +47,3 @@
         ├── 9.数字货币
         ├── readme.md
         └── 工具
-
-46 directories, 3 files
