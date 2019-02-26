@@ -1,7 +1,4 @@
-目录结构如下：
-
-```
-CRYPTO
+.
 ├── CTF_crypto
 │   ├── CSAW-CTF-2018-Quals
 │   │   ├── babycrypto
@@ -22,16 +19,6 @@ CRYPTO
 │   ├── Tokyo-Westerns-CTF(2017)
 │   │   ├── baby_RSA
 │   │   └── crypto_dlp
-│   ├── ctf_crypto
-│   │   ├── asymmetric
-│   │   ├── certificate
-│   │   ├── classical
-│   │   ├── figure
-│   │   ├── hash
-│   │   ├── introduction.md
-│   │   ├── prng
-│   │   ├── signature
-│   │   └── symmetric
 │   ├── noxCTF2018
 │   │   ├── Chop_Suey
 │   │   ├── Decryptor
@@ -43,7 +30,7 @@ CRYPTO
 │   └── square-CTF(2018)
 │       ├── flipping_bits
 │       └── leaky power
-│
+├── README.md
 └── Study
     ├── Academic_thesis
     │   ├── Quantum_computing(量子计算)
@@ -61,5 +48,5 @@ CRYPTO
         ├── 9.数字货币
         ├── readme.md
         └── 工具
-```
 
+46 directories, 3 files
