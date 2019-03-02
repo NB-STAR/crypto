@@ -1,0 +1,7 @@
+Mike, the System Administrator, thought it would be a good idea to implement his own Elliptic Curve Diffie Hellman key exchange using unnamed curves to use across the network. We managed to capture network traffic of the key exchange along with an encrypted file transfer. See if you can read the contents of that file.
+
+Note: The password to the AES192-CBC encrypted file is the shared key x and y coordinates from the key exchange concatenated together. (e.g. sharedKey = (12345,67890) password = "1234567890")
+
+Difficulty: hard
+
+Edit: 02/23/2019 14:33 Changed AES256-CBC to AES192-CBC
